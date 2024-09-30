@@ -17,7 +17,7 @@ Este projeto é um serviço web que busca ofertas de jogos digitais usando a API
 
 3. Execute o projeto com Docker Compose:
    ```bash
-   docker-compose up
+   docker compose up
    ```
 
 4. A aplicação estará disponível em `http://localhost:8080`.
