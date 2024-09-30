@@ -45,7 +45,7 @@ GET http://localhost:8080/
 ```
 
 ### 2. **POST /filter**
-Filtra os jogos com base no preço de SALE, não no preço normal.
+Filtra com o preço máximo que você quer pagar, os jogos com base no preço de SALE, não no preço normal.
 
 **Exemplo de requisição**:
 ```bash
