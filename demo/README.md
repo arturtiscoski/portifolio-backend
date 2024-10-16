@@ -17,7 +17,7 @@ Este projeto é um serviço web que busca ofertas de jogos digitais usando a API
 
 3. Execute o projeto com Docker Compose:
    ```bash
-   docker-compose up
+   docker compose up
    ```
 
 4. A aplicação estará disponível em `http://localhost:8080`.
@@ -45,7 +45,7 @@ GET http://localhost:8080/
 ```
 
 ### 2. **POST /filter**
-Filtra os jogos com base no preço de SALE, não no preço normal.
+Filtra com o preço máximo que você quer pagar, os jogos com base no preço de SALE, não no preço normal.
 
 **Exemplo de requisição**:
 ```bash
