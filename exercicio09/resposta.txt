@@ -1,0 +1,3 @@
+Marcelo Malaguitti defendeu a importância de agências de segurança especializadas na proteção contra ameaças cibernéticas. Cite pelo menos um tipo de ataque conhecido contra sistemas de backend e de que forma isso impactou nos negócios de uma empresa e/ou nos usuários.
+
+Fishing - Em uma empresa onde trabalhei, um funcionário recebeu um email malicioso que acabou infectando a rede, os dados da empresa foram criptografados e eles não queriam perder 1 semana de dados (não tinha backup mais recente), a empresa era de pequeno porte e acabou cedendo as exigências do hacker e pagou para receber o programa para descriptografar, se a empresa tivesse investido em segurança possivelmente não passaria por isso.
