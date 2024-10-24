@@ -1,6 +1,17 @@
 package com.example.exemplodto.models;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+import java.util.UUID;
+
+@Entity
 public class JogadorEntidade {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private UUID id;
     private String nome;
     private String apelido;
     private Integer habilidade;

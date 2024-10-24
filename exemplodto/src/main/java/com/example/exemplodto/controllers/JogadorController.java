@@ -5,10 +5,9 @@ import com.example.exemplodto.dtos.JogadorResponseDTO;
 import com.example.exemplodto.services.JogadorService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 public class JogadorController {
@@ -19,5 +18,11 @@ public class JogadorController {
     @ResponseBody
     public JogadorResponseDTO insereJogador(@RequestBody @Valid JogadorRequestDTO jogadorRequestDTO) {
         return jogadorService.insereJogador(jogadorRequestDTO);
+    }
+
+    @GetMapping("/jogadores")
+    @ResponseBody
+    public List<JogadorResponseDTO> listaJogadores() {
+        return jogadorService.retornaJogadores();
     }
 }
